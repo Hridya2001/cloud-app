@@ -11,8 +11,8 @@ S3_KEY_PREFIX = "kafka_messages/"
 # Initialize S3 client
 s3_client = boto3.client(
     's3',
-    aws_access_key_id=os.getenv("AKIAU72LGCWVET55TWDH"),
-    aws_secret_access_key=os.getenv("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"),
+    aws_access_key_id=os.getenv(""),
+    aws_secret_access_key=os.getenv(""),
     region_name=AWS_REGION
 )
 
