@@ -3,7 +3,7 @@ import json
 import os
 
 # Fetch the API Key from environment variables for security
-API_KEY = os.getenv('NEWS_API_KEY', 'd58785f9a6da4e6c86a29e6fc233fc4b')  # Replace with a secure environment variable
+API_KEY = os.getenv('NEWS_API_KEY', '')  # Replace with a secure environment variable
 BASE_URL = 'https://newsapi.org/v2/top-headlines'
 
 def fetch_news(country='us', category='business'):
